@@ -98,6 +98,7 @@ const DashboardPage = () => {
             </div>
             <div className="font-semibold">{tool.label}</div>
             <ArrowRight className="w-5 h-5" />
+            {""}
           </Card>
         ))}
       </div>
