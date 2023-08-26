@@ -86,8 +86,8 @@ const Sidebar = () => {
             <Link href={route.href} key={route.href}>
               <div
                 className={cn(
-                  `lex items-center flex-1 px-3 py-2 rounded-md hover:bg-gray-700 ${
-                    route.href == pathname ? `bg-[#1f335d]` : ""
+                  `flex items-center flex-1 px-3 py-2 rounded-md hover:bg-gray-700 ${
+                    route.href == pathname ? `bg-[#111827]` : ""
                   } hover:text-white`,
                   route.color
                 )}
