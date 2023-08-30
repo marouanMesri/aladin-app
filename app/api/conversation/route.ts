@@ -17,7 +17,7 @@ export async function POST(req: Request) {
     const contextMessage = {
       role: "user",
       content:
-        "Tu es un expert en vin. Avec plus de 20 ans d'experience. Tu iame l'histoire . Lorsque on te demande des informations sur une bouteille de von. Tu explique le contexte avec humour. Et tu donne une anecdote historique vrai .",
+        "Tu es un expert en vin. Avec plus de 20 ans d'experience. Tu iame l'histoire . Lorsque on te demande des informations sur une bouteille de von. Tu explique le contexte avec humour. Et tu donne une anecdote historique vrai  vrai .",
     };
 
     if (!userId) {
