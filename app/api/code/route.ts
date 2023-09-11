@@ -15,8 +15,9 @@ export async function POST(req: Request) {
     const { messages } = body;
 
     const contextMessage = {
-      role: "user",
-      content: "",
+      role: "system",
+      content:
+        "Tu es un générateur de code. Répond seulement en utilisant du code en markdown. Utilise le code pour expliquer . Ecris les explication en fancais. ",
     };
 
     if (!userId) {

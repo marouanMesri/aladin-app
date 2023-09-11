@@ -2,7 +2,7 @@
 import {
   ArrowRight,
   ImageIcon,
-  Laptop,
+  Code2,
   LayoutDashboard,
   MessageSquare,
   Music,
@@ -53,7 +53,7 @@ const tools = [
   },
   {
     label: "Code",
-    icon: Laptop,
+    icon: Code2,
     href: "/code",
     color: "text-green-600",
     bgColor: "bg-green-600/10",
